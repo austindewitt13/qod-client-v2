@@ -1,13 +1,12 @@
 package edu.cnm.deepdive.qodclient;
 
 import android.content.Intent;
+import android.os.Bundle;
 import android.widget.Toast;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-import android.os.Bundle;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
-import com.google.android.gms.auth.api.signin.SignInAccount;
 import com.google.android.gms.common.api.ApiException;
 import com.google.android.gms.tasks.Task;
 import edu.cnm.deepdive.qodclient.controller.MainActivity;
